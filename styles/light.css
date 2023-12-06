@@ -22,6 +22,25 @@
     --contrast-text-color: #353430;
     --main-text-color: #353430;
   }
+  .page.theme_auto .header__decorative-element {
+    display: none;
+  }
+
+  .page.theme_auto .header__theme-menu {
+    margin-top: calc(5.7vh + 25px);
+  }
+
+  @media (width >= 768px) {
+    .page.theme_auto .header__theme-menu {
+      margin-top: calc(14vh + 25px);
+    }
+  }
+
+  @media (width >= 1024px) {
+    .page.theme_auto .header__theme-menu {
+      margin: 0 auto;
+    }
+  }
 }
 
 .page.theme_light {

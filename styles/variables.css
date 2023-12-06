@@ -2,7 +2,7 @@
   --main-font-size: 18px;
   --normal-font-weight: 400;
   --bold-font-weight: 700;
-  --font-family: "IBM Plex mono", serif;
+  --font-family: "IBM Plex mono", monospace;
   --shadow-color: #ff0070;
 
   --bg-image: url("../images/cover-image-dark.png");
